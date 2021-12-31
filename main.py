@@ -13,12 +13,12 @@ r = fore.LIGHTRED_EX
 b = fore.LIGHTBLUE_EX
 w = fore.WHITE
 if(len(token) < 10):
-  token = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Token: ")
+  token = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Token: ")
 else:
   pass
-channel = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Channel/GC/DM ID: ")
-messageid = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Message ID: ")
-amount = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Amount ID: ")
+channel = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Channel/GC/DM ID: ")
+messageid = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Message ID: ")
+amount = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Amount ID: ")
 sessions = requests.Session()
 headers = {
   "Authorization": token
