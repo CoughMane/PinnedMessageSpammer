@@ -18,16 +18,16 @@ if(len(token) < 10):
   token = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Token: ")
 else:
   pass
-channel = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Channel/GC/DM ID: ")
-messageid = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Message ID: ")
-amount = input(f"{fore.BLUE}~/WareName{fore.WHITE}$ Amount ID: ")
+channel = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Channel/GC/DM ID: ")
+messageid = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Message ID: ")
+amount = input(f"{fore.BLUE}~/Desire{fore.WHITE}$ Amount ID: ")
 
 sessions = requests.Session()
 headers = {
   "Authorization": token
 }
 def info( words):
-  print(f"{r}[{Fore.WHITE}KOBRA{r}] {b}- {Fore.WHITE}{words}")
+  print(f"{r}[{Fore.WHITE}Desire{r}] {b}- {Fore.WHITE}{words}")
 
 
 async def pinspammer(channel,messageid):
